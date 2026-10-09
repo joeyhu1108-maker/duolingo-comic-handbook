@@ -1,169 +1,395 @@
 <!doctype html>
 <html lang="zh-CN">
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#58cc02"><meta name="description" content="用 18 格漫画，读懂多邻国工作手册的五条原则与绿色引擎。">
-<title>多邻国工作手册 · 漫画版</title>
+<meta name="theme-color" content="#58cc02"><meta name="description" content="用 80 格漫画解读多邻国工作手册全部 9 章：CEO 的信、核心原则、五条工作原则、绿色引擎与 17 个术语。">
+<title>多邻国工作手册 · 全册漫画版</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%2358cc02'/%3E%3Ctext x='32' y='47' text-anchor='middle' font-family='sans-serif' font-weight='900' font-size='47' fill='white'%3Ed%3C/text%3E%3C/svg%3E">
 <style>
 :root{--ink:#20251c;--paper:#faf8ef;--green:#58cc02;--line:#d6d8ce;--round:'Yuanti SC','Arial Rounded MT Bold','PingFang SC','Microsoft YaHei',sans-serif;--body:'PingFang SC','Microsoft YaHei',sans-serif}
-*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:86px}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);-webkit-font-smoothing:antialiased}a{color:inherit}a:focus-visible,summary:focus-visible{outline:3px solid #1cb0f6;outline-offset:5px}::selection{background:#bcf584}button,a,summary{-webkit-tap-highlight-color:transparent}.wrap{max-width:1200px;margin:auto;padding-inline:38px}.site-head{height:92px;display:flex;align-items:center;justify-content:space-between;gap:20px}.wordmark{font-family:var(--round);font-weight:900;font-size:34px;letter-spacing:-1.7px;color:#4bb500;text-decoration:none}.edition{font-size:12px;letter-spacing:2px;margin-left:19px;padding-left:19px;border-left:1px solid #bcc5b4;font-weight:600}.source-link{font-size:13px;text-decoration:none;border-bottom:1px solid var(--ink);padding-bottom:5px}.hero{display:grid;grid-template-columns:1.04fr 1fr;align-items:center;gap:40px;padding:33px 0 64px}.kicker{font:700 11px/1.4 var(--body);letter-spacing:2px;margin:0 0 20px}.hero h1{font-family:var(--round);font-size:clamp(46px,5.8vw,74px);line-height:1.13;letter-spacing:-3px;margin:0 0 22px;font-weight:900}.hero h1 em{font-style:normal;position:relative;white-space:nowrap}.hero h1 em:after{content:'';position:absolute;z-index:-1;left:0;right:-6px;bottom:5px;height:19px;background:#b3ed7b;transform:rotate(-2deg)}.hero-copy{position:relative;z-index:0}.intro{font-size:17px;line-height:1.8;margin:0 0 28px;color:#5b6153}.cta{display:inline-flex;align-items:center;gap:30px;background:var(--green);font-size:15px;font-weight:800;padding:15px 24px;border:2px solid var(--ink);border-radius:13px;box-shadow:0 5px 0 var(--ink);text-decoration:none;transition:transform .15s,box-shadow .15s}.cta:hover{transform:translateY(-2px);box-shadow:0 7px 0 var(--ink)}.cta:active{transform:translateY(4px);box-shadow:0 1px 0 var(--ink)}.hero-picture{position:relative;padding:34px 12px 0 5px}.cover-art{aspect-ratio:1/1;border:2px solid var(--ink);border-radius:19px 24px 17px 21px;transform:rotate(2.3deg);box-shadow:6px 7px 0 #bbe895}.cover-bubble{position:absolute;top:0;left:23px;z-index:2;font-family:var(--round);font-size:20px;font-weight:900;background:#fff;border:2px solid var(--ink);border-radius:50%;padding:20px 30px;transform:rotate(-5deg)}.cover-bubble:after{content:'';position:absolute;width:15px;height:15px;bottom:-7px;left:45px;background:#fff;border-right:2px solid var(--ink);border-bottom:2px solid var(--ink);transform:skew(-22deg) rotate(36deg)}.cover-note{position:absolute;right:-7px;bottom:20px;background:var(--green);border:2px solid var(--ink);border-radius:50%;width:87px;height:87px;display:grid;place-content:center;text-align:center;font:900 15px/1.45 var(--round);transform:rotate(9deg)}.mission-mini{display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--line);padding:16px 0 20px;font-size:12px;color:#626958}.mission-mini strong{color:var(--ink);font-weight:600}.chapter-nav{position:sticky;top:0;z-index:10;background:rgba(250,248,239,.97);border-block:1px solid var(--line);backdrop-filter:blur(10px)}.nav-inner{display:flex;align-items:stretch;gap:0;overflow-x:auto;scrollbar-width:none}.nav-inner::-webkit-scrollbar{display:none}.nav-inner a{flex:1;white-space:nowrap;text-decoration:none;padding:19px 14px 17px;border-bottom:3px solid transparent;display:flex;gap:11px;justify-content:center;font-size:13px;font-weight:700;transition:background .15s}.nav-inner a span{font:500 11px/1.5 ui-monospace,monospace;color:#777f6c}.nav-inner a:hover{background:#ebf5df}.nav-inner a[aria-current='location']{border-bottom-color:var(--green);background:#e9f5dc}.reading-line{position:absolute;bottom:-1px;left:0;height:2px;width:0;background:var(--green)}.chapter{padding:65px 0 47px;border-bottom:1px solid var(--line);scroll-margin-top:14px}.chapter-heading{display:flex;gap:21px;align-items:center;margin-bottom:26px}.chapter-number{font:italic 400 64px/.95 Georgia,serif;letter-spacing:-4px;color:#818b71;min-width:70px}.chapter-label{font-size:12px;letter-spacing:1.4px;margin:0 0 7px;color:#6c7560}.chapter h2{font-family:var(--round);font-size:32px;line-height:1.3;font-weight:900;margin:0;letter-spacing:-.8px}.strip{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px;position:relative}.panel{margin:0;background:#fffdf5;border:2px solid var(--ink);border-radius:9px;overflow:hidden;box-shadow:3px 4px 0 #d0d2c5;min-width:0}.panel-talk{min-height:67px;padding:14px 12px 0;display:flex;align-items:flex-start;justify-content:center}.speech{position:relative;display:block;background:#fff;border:1.5px solid var(--ink);border-radius:18px 18px 18px 5px;padding:9px 13px;font:800 15px/1.35 var(--round);text-align:center}.speech:after{content:'';position:absolute;bottom:-6px;left:25px;width:9px;height:9px;background:#fff;border-right:1.5px solid var(--ink);border-bottom:1.5px solid var(--ink);transform:rotate(37deg) skew(-14deg)}.art{width:100%;aspect-ratio:1;}.panel figcaption{font-size:13px;font-weight:600;line-height:1.6;padding:13px 8px;background:var(--accent);text-align:center;border-top:1px solid var(--ink)}.lesson{display:flex;align-items:baseline;gap:13px;margin:25px 0 12px;font-family:var(--round);font-size:21px;line-height:1.55;font-weight:900}.lesson-mark{font-family:Georgia,serif;font-size:24px;line-height:1;color:#4fab08}.lesson span:last-child{background:linear-gradient(transparent 65%,var(--accent) 65%);padding-right:4px}.source-detail{font-size:13px;color:#58614f}.source-detail summary{cursor:pointer;display:inline-flex;align-items:center;gap:9px;list-style:none;padding:8px 2px}.source-detail summary::-webkit-details-marker{display:none}.source-detail summary:before{content:'+';font:500 19px/1 ui-monospace,monospace}.source-detail[open] summary:before{content:'−'}.detail-body{border-left:3px solid var(--green);padding:4px 0 4px 20px;margin:11px 0 4px;max-width:840px;line-height:1.9}.detail-body ul{margin:0 0 12px;padding-left:17px}.detail-body li+li{margin-top:5px}.original-link{font-size:12px;font-weight:600;color:#3d7227;text-underline-offset:3px}.closing{padding:68px 0 28px}.closing h2{font-family:var(--round);font-size:42px;line-height:1.3;letter-spacing:-1px;margin:0 0 14px;font-weight:900}.closing h2 span{color:#4db505}.closing p{font-size:14px;line-height:1.9;color:#636a59;margin:0 0 24px}.end-note{background:#e9f4db;border:1px solid #bdcba9;padding:18px 22px;border-radius:10px;margin-bottom:24px;max-width:800px}.end-note summary{cursor:pointer;font-weight:700;font-size:14px}.end-note p{font-size:13px;margin:13px 0 0}.glossary{display:flex;flex-wrap:wrap;gap:12px 28px;margin:16px 0 0;font-size:13px}.glossary div{display:flex;gap:7px}.glossary dt{font-weight:800}.glossary dd{margin:0;color:#596451}.footer{display:flex;align-items:flex-start;justify-content:space-between;gap:24px;border-top:1px solid var(--line);padding:25px 0 33px;font-size:11px;line-height:1.9;color:#737a69}.footer a{text-underline-offset:4px}.footer-right{display:flex;gap:22px;white-space:nowrap}.back-top{text-decoration:none;color:var(--ink);font-weight:700}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:86px}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);-webkit-font-smoothing:antialiased}a{color:inherit}a:focus-visible,summary:focus-visible{outline:3px solid #1cb0f6;outline-offset:5px}::selection{background:#bcf584}button,a,summary{-webkit-tap-highlight-color:transparent}.wrap{max-width:1200px;margin:auto;padding-inline:38px}.site-head{height:92px;display:flex;align-items:center;justify-content:space-between;gap:20px}.wordmark{font-family:var(--round);font-weight:900;font-size:34px;letter-spacing:-1.7px;color:#4bb500;text-decoration:none}.edition{font-size:12px;letter-spacing:2px;margin-left:19px;padding-left:19px;border-left:1px solid #bcc5b4;font-weight:600}.source-link{font-size:13px;text-decoration:none;border-bottom:1px solid var(--ink);padding-bottom:5px}.hero{display:grid;grid-template-columns:1.04fr 1fr;align-items:center;gap:40px;padding:33px 0 64px}.kicker{font:700 11px/1.4 var(--body);letter-spacing:2px;margin:0 0 20px}.hero h1{font-family:var(--round);font-size:clamp(46px,5.8vw,74px);line-height:1.13;letter-spacing:-3px;margin:0 0 22px;font-weight:900}.hero h1 em{font-style:normal;position:relative;white-space:nowrap}.hero h1 em:after{content:'';position:absolute;z-index:-1;left:0;right:-6px;bottom:5px;height:19px;background:#b3ed7b;transform:rotate(-2deg)}.hero-copy{position:relative;z-index:0}.intro{font-size:17px;line-height:1.8;margin:0 0 28px;color:#5b6153}.cta{display:inline-flex;align-items:center;gap:30px;background:var(--green);font-size:15px;font-weight:800;padding:15px 24px;border:2px solid var(--ink);border-radius:13px;box-shadow:0 5px 0 var(--ink);text-decoration:none;transition:transform .15s,box-shadow .15s}.cta:hover{transform:translateY(-2px);box-shadow:0 7px 0 var(--ink)}.cta:active{transform:translateY(4px);box-shadow:0 1px 0 var(--ink)}.hero-picture{position:relative;padding:34px 12px 0 5px}.cover-art{aspect-ratio:1/1;border:2px solid var(--ink);border-radius:19px 24px 17px 21px;transform:rotate(2.3deg);box-shadow:6px 7px 0 #bbe895}.cover-bubble{position:absolute;top:0;left:23px;z-index:2;font-family:var(--round);font-size:20px;font-weight:900;background:#fff;border:2px solid var(--ink);border-radius:50%;padding:20px 30px;transform:rotate(-5deg)}.cover-bubble:after{content:'';position:absolute;width:15px;height:15px;bottom:-7px;left:45px;background:#fff;border-right:2px solid var(--ink);border-bottom:2px solid var(--ink);transform:skew(-22deg) rotate(36deg)}.cover-note{position:absolute;right:-7px;bottom:20px;background:var(--green);border:2px solid var(--ink);border-radius:50%;width:87px;height:87px;display:grid;place-content:center;text-align:center;font:900 15px/1.45 var(--round);transform:rotate(9deg)}.mission-mini{display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--line);padding:16px 0 20px;font-size:12px;color:#626958}.mission-mini strong{color:var(--ink);font-weight:600}.chapter-nav{position:sticky;top:0;z-index:10;background:rgba(250,248,239,.97);border-block:1px solid var(--line);backdrop-filter:blur(10px)}.nav-inner{display:flex;align-items:stretch;gap:0;overflow-x:auto;scrollbar-width:none}.nav-inner::-webkit-scrollbar{display:none}.nav-inner a{flex:1;white-space:nowrap;text-decoration:none;padding:19px 14px 17px;border-bottom:3px solid transparent;display:flex;gap:11px;justify-content:center;font-size:13px;font-weight:700;transition:background .15s}.nav-inner a span{font:500 11px/1.5 ui-monospace,monospace;color:#777f6c}.nav-inner a:hover{background:#ebf5df}.nav-inner a[aria-current='location']{border-bottom-color:var(--green);background:#e9f5dc}.reading-line{position:absolute;bottom:-1px;left:0;height:2px;width:0;background:var(--green)}.chapter{padding:65px 0 47px;border-bottom:1px solid var(--line);scroll-margin-top:14px}.chapter-heading{display:flex;gap:21px;align-items:center;margin-bottom:26px}.chapter-number{font:italic 400 64px/.95 Georgia,serif;letter-spacing:-4px;color:#818b71;min-width:70px}.chapter-label{font-size:12px;letter-spacing:1.4px;margin:0 0 7px;color:#6c7560}.chapter h2{font-family:var(--round);font-size:32px;line-height:1.3;font-weight:900;margin:0;letter-spacing:-.8px}.strip{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px;position:relative}.panel{margin:0;background:#fffdf5;border:2px solid var(--ink);border-radius:9px;overflow:hidden;box-shadow:3px 4px 0 #d0d2c5;min-width:0}.panel-talk{min-height:67px;padding:14px 12px 0;display:flex;align-items:flex-start;justify-content:center}.speech{position:relative;display:block;background:#fff;border:1.5px solid var(--ink);border-radius:18px 18px 18px 5px;padding:9px 13px;font:800 15px/1.35 var(--round);text-align:center}.speech:after{content:'';position:absolute;bottom:-6px;left:25px;width:9px;height:9px;background:#fff;border-right:1.5px solid var(--ink);border-bottom:1.5px solid var(--ink);transform:rotate(37deg) skew(-14deg)}.art{width:100%;aspect-ratio:1;}.panel figcaption{font-size:13px;font-weight:600;line-height:1.6;padding:13px 8px;background:var(--accent);text-align:center;border-top:1px solid var(--ink)}.lesson{display:flex;align-items:baseline;gap:13px;margin:25px 0 12px;font-family:var(--round);font-size:21px;line-height:1.55;font-weight:900}.lesson-mark{font-family:Georgia,serif;font-size:24px;line-height:1;color:#4fab08}.lesson span:last-child{background:linear-gradient(transparent 65%,var(--accent) 65%);padding-right:4px}.source-detail{font-size:13px;color:#58614f}.source-detail summary{cursor:pointer;display:inline-flex;align-items:center;gap:9px;list-style:none;padding:8px 2px}.source-detail summary::-webkit-details-marker{display:none}.source-detail summary:before{content:'+';font:500 19px/1 ui-monospace,monospace}.source-detail[open] summary:before{content:'−'}.detail-body{border-left:3px solid var(--green);padding:4px 0 4px 20px;margin:11px 0 4px;max-width:840px;line-height:1.9}.detail-body ul{margin:0 0 12px;padding-left:17px}.detail-body li+li{margin-top:5px}.original-link{font-size:12px;font-weight:600;color:#3d7227;text-underline-offset:3px}.closing{padding:68px 0 28px}.closing h2{font-family:var(--round);font-size:42px;line-height:1.3;letter-spacing:-1px;margin:0 0 14px;font-weight:900}.closing h2 span{color:#4db505}.closing p{font-size:14px;line-height:1.9;color:#636a59;margin:0 0 24px}.footer{display:flex;align-items:flex-start;justify-content:space-between;gap:24px;border-top:1px solid var(--line);padding:25px 0 33px;font-size:11px;line-height:1.9;color:#737a69}.footer a{text-underline-offset:4px}.footer-right{display:flex;gap:22px;white-space:nowrap}.back-top{text-decoration:none;color:var(--ink);font-weight:700}
 @media(min-width:1500px){.wrap{max-width:1300px}.hero h1{font-size:82px}}
 @media(max-width:850px){.wrap{padding-inline:24px}.hero{gap:25px}.hero h1{font-size:54px}.cover-bubble{font-size:16px;padding:16px 21px}.cover-note{width:72px;height:72px;font-size:13px}.edition{font-size:10px;letter-spacing:1px;margin-left:12px;padding-left:12px}.nav-inner a{padding-inline:10px;gap:7px}.strip{gap:11px}.speech{font-size:12px;padding:9px}.panel-talk{min-height:62px}.panel figcaption{font-size:11px}.chapter h2{font-size:29px}.lesson{font-size:19px}}
-@media(max-width:600px){html{scroll-padding-top:74px}.wrap{padding-inline:20px}.site-head{height:75px}.wordmark{font-size:29px}.edition{display:none}.source-link{font-size:11px}.hero{grid-template-columns:1fr;gap:29px;padding:24px 0 28px}.hero h1{font-size:clamp(43px,14vw,55px);letter-spacing:-2.5px;margin-bottom:18px}.hero .kicker{font-size:10px;margin-bottom:15px}.intro{font-size:15px;margin-bottom:20px}.cta{padding:13px 20px;font-size:14px;gap:35px}.hero-picture{margin:0 auto;max-width:360px;width:100%;padding-top:33px;padding-right:14px;padding-left:5px}.cover-bubble{font-size:17px;left:18px}.cover-note{bottom:14px;right:0}.mission-mini{font-size:10px;padding-block:15px;gap:13px;align-items:flex-start}.mission-mini span{white-space:nowrap}.mission-mini strong{max-width:210px;line-height:1.6}.chapter-nav .wrap{padding-inline:10px}.nav-inner a{flex:0 0 auto;padding:16px 11px 14px;font-size:12px;gap:6px}.chapter{padding:42px 0 32px}.chapter-heading{gap:14px;margin-bottom:22px}.chapter-number{font-size:50px;min-width:54px;letter-spacing:-3px}.chapter-label{font-size:10px;letter-spacing:1px;margin-bottom:6px}.chapter h2{font-size:26px;letter-spacing:-.5px}.strip{grid-template-columns:1fr;gap:20px}.panel{box-shadow:3px 4px 0 #d0d2c5}.panel-talk{min-height:65px;padding-top:15px}.speech{font-size:16px;padding:9px 17px}.panel figcaption{font-size:13px;padding-block:13px}.lesson{font-size:18px;gap:9px;margin-top:23px}.lesson-mark{font-size:22px}.source-detail{font-size:12px}.detail-body{padding-left:15px}.closing{padding-top:44px}.closing h2{font-size:33px}.closing p{font-size:13px}.end-note{padding:16px}.glossary{display:grid;gap:10px;font-size:12px}.footer{display:block;font-size:10px}.footer-right{margin-top:16px;gap:25px}}
+@media(max-width:600px){html{scroll-padding-top:74px}.wrap{padding-inline:20px}.site-head{height:75px}.wordmark{font-size:29px}.edition{display:none}.source-link{font-size:11px}.hero{grid-template-columns:1fr;gap:29px;padding:24px 0 28px}.hero h1{font-size:clamp(43px,14vw,55px);letter-spacing:-2.5px;margin-bottom:18px}.hero .kicker{font-size:10px;margin-bottom:15px}.intro{font-size:15px;margin-bottom:20px}.cta{padding:13px 20px;font-size:14px;gap:35px}.hero-picture{margin:0 auto;max-width:360px;width:100%;padding-top:33px;padding-right:14px;padding-left:5px}.cover-bubble{font-size:17px;left:18px}.cover-note{bottom:14px;right:0}.mission-mini{font-size:10px;padding-block:15px;gap:13px;align-items:flex-start}.mission-mini span{white-space:nowrap}.mission-mini strong{max-width:210px;line-height:1.6}.chapter-nav .wrap{padding-inline:10px}.nav-inner a{flex:0 0 auto;padding:16px 11px 14px;font-size:12px;gap:6px}.chapter{padding:42px 0 32px}.chapter-heading{gap:14px;margin-bottom:22px}.chapter-number{font-size:50px;min-width:54px;letter-spacing:-3px}.chapter-label{font-size:10px;letter-spacing:1px;margin-bottom:6px}.chapter h2{font-size:26px;letter-spacing:-.5px}.strip{grid-template-columns:1fr;gap:20px}.panel{box-shadow:3px 4px 0 #d0d2c5}.panel-talk{min-height:65px;padding-top:15px}.speech{font-size:16px;padding:9px 17px}.panel figcaption{font-size:13px;padding-block:13px}.lesson{font-size:18px;gap:9px;margin-top:23px}.lesson-mark{font-size:22px}.source-detail{font-size:12px}.detail-body{padding-left:15px}.closing{padding-top:44px}.closing h2{font-size:33px}.closing p{font-size:13px}.footer{display:block;font-size:10px}.footer-right{margin-top:16px;gap:25px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
 @media print{.chapter-nav,.cta,.source-link,.back-top{display:none}.wrap{max-width:none;padding-inline:10mm}.site-head{height:55px}.hero{padding-top:0;gap:25px}.hero h1{font-size:45px}.cover-art{box-shadow:none}.chapter{break-inside:avoid;padding:28px 0}.strip{grid-template-columns:repeat(3,1fr)}.speech{font-size:11px}.panel figcaption{font-size:10px}.lesson{font-size:17px}.source-detail{display:none}body{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
 
+.story+.story{margin-top:36px}.story-title{font:800 16px/1.6 var(--round);margin:0 0 14px;color:#4d5a40}.story:first-child .story-title{margin-top:0}.contents{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 24px;padding:5px 0 31px}.contents a{display:flex;gap:13px;align-items:center;text-decoration:none;padding:15px 0;border-top:1px solid var(--line);font-size:14px;font-weight:700}.contents a:hover{color:#419000}.contents a span{font:500 11px ui-monospace,monospace;color:#7b856e}.map-grid{gap:18px}.map-card{display:block;color:inherit;text-decoration:none}.map-card:focus-visible{outline-offset:5px}.map-card .panel-talk{min-height:54px;padding-top:12px}.map-card .speech{background:var(--accent);border:0;border-radius:0;font-size:15px;padding:7px 8px}.map-card .speech:after{display:none}.map-card:hover{transform:translateY(-2px)}.term-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.term-card{border:2px solid var(--ink);border-radius:10px;overflow:hidden;background:#fffdf5;box-shadow:3px 4px 0 #d0d2c5;min-width:0}.term-copy{border-top:1px solid var(--ink);padding:16px 17px 18px;min-height:147px;background:var(--accent)}.term-copy h3{font:800 20px/1.35 var(--round);margin:0 0 4px;overflow-wrap:anywhere}.term-copy strong{font-size:14px;line-height:1.6;display:block;margin-bottom:7px}.term-copy p{font-size:13px;line-height:1.7;margin:0}.term-hint{font-size:11px;line-height:1.8;margin-top:10px}.term-hint summary{cursor:pointer;text-underline-offset:3px}.term-hint p{font-size:11px;margin-top:6px}.reader-note{border-top:1px dashed #c4cfb7;margin:14px 0 0;padding-top:12px;color:#62685d}.reader-note strong{font-size:11px;background:#e5ebdd;padding:3px 6px;margin-right:5px}.plan-note{font-size:13px;line-height:1.8;padding:15px 18px;background:#e9f4db;border-left:3px solid var(--green);margin:22px 0 0}.chapter-heading .chapter-label{letter-spacing:.8px}.nav-inner a{padding-inline:10px;gap:6px}.nav-inner a span{font-size:10px}
+@media(max-width:850px){.term-copy{padding:13px}.term-copy h3{font-size:18px}.contents{gap:0 17px}.contents a{font-size:13px}}
+@media(max-width:600px){.contents{grid-template-columns:repeat(3,minmax(0,1fr));gap:0 12px;padding:1px 0 23px}.contents a{gap:6px;font-size:11px;padding:13px 0}.contents a span{font-size:9px}.story+.story{margin-top:31px}.story-title{font-size:14px;margin-bottom:14px}.map-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.map-card .panel-talk{min-height:45px;padding:7px 4px 0}.map-card .speech{font-size:12px}.term-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:15px 13px}.term-copy{padding:12px 10px 14px;min-height:150px}.term-copy h3{font-size:16px;letter-spacing:-.25px}.term-copy strong{font-size:12px;line-height:1.65;margin-bottom:5px}.term-copy p{font-size:11px;line-height:1.8}.term-hint{font-size:10px;margin-top:9px}.term-hint p{font-size:10px}.plan-note{font-size:12px;padding:13px 15px}.reader-note{font-size:12px}.nav-inner a{padding-inline:12px}.chapter-heading{align-items:flex-start}.chapter h2{font-size:25px}}
+@media print{.contents{display:none}.story{break-inside:avoid}.chapter{break-inside:auto}.term-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.term-card{break-inside:avoid}.map-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+
 .art svg,.cover-art svg{width:100%;height:100%;display:block;overflow:hidden}.cover-art{overflow:hidden}.strip{width:100%}
+
+.map-caption{font-size:13px;font-weight:500;line-height:1.7;padding:13px 14px;background:var(--accent);text-align:left;border-top:1px solid var(--ink);min-height:69px}@media(max-width:600px){.map-caption{font-size:11px;padding:10px;min-height:77px}}
 </style></head>
 <body id="top">
-<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><image id="asset-01-long-view" width="2172" height="724" href="assets/01-long-view.jpg"/><image id="asset-02-raise-the-bar" width="2172" height="724" href="assets/02-raise-the-bar.jpg"/><image id="asset-03-ship-it" width="2172" height="724" href="assets/03-ship-it.jpg"/><image id="asset-04-show-dont-tell" width="2172" height="724" href="assets/04-show-dont-tell.jpg"/><image id="asset-05-make-it-fun" width="2172" height="724" href="assets/05-make-it-fun.jpg"/><image id="asset-06-green-machine" width="2172" height="724" href="assets/06-green-machine.jpg"/></defs></svg>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><image id="asset-01-long-view" width="2172" height="724" href="assets/01-long-view.jpg"/><image id="asset-02-raise-the-bar" width="2172" height="724" href="assets/02-raise-the-bar.jpg"/><image id="asset-03-ship-it" width="2172" height="724" href="assets/03-ship-it.jpg"/><image id="asset-04-show-dont-tell" width="2172" height="724" href="assets/04-show-dont-tell.jpg"/><image id="asset-05-make-it-fun" width="2172" height="724" href="assets/05-make-it-fun.jpg"/><image id="asset-06-green-machine" width="2172" height="724" href="assets/06-green-machine.jpg"/><image id="asset-07-ceo-letter" width="2172" height="724" href="assets/07-ceo-letter.jpg"/><image id="asset-08-long-tech-people" width="2172" height="724" href="assets/08-long-tech-people.jpg"/><image id="asset-09-long-product" width="2172" height="724" href="assets/09-long-product.jpg"/><image id="asset-10-long-business" width="2172" height="724" href="assets/10-long-business.jpg"/><image id="asset-11-long-brand" width="2172" height="724" href="assets/11-long-brand.jpg"/><image id="asset-12-quality-four" width="2172" height="724" href="assets/12-quality-four.jpg"/><image id="asset-13-quality-ownership" width="2172" height="724" href="assets/13-quality-ownership.jpg"/><image id="asset-14-ship-system" width="2172" height="724" href="assets/14-ship-system.jpg"/><image id="asset-15-show-clear" width="2172" height="724" href="assets/15-show-clear.jpg"/><image id="asset-16-show-trust" width="2172" height="724" href="assets/16-show-trust.jpg"/><image id="asset-17-fun-culture" width="2172" height="724" href="assets/17-fun-culture.jpg"/><image id="asset-18-fun-brand" width="2172" height="724" href="assets/18-fun-brand.jpg"/><image id="asset-19-green-plan" width="2172" height="724" href="assets/19-green-plan.jpg"/><image id="asset-20-green-loop" width="2172" height="724" href="assets/20-green-loop.jpg"/><image id="asset-21-glossary-metrics" width="2172" height="724" href="assets/21-glossary-metrics.jpg"/><image id="asset-22-glossary-culture" width="2172" height="724" href="assets/22-glossary-culture.jpg"/></defs></svg>
 <div class="wrap">
   <header class="site-head"><div><a class="wordmark" href="#top" aria-label="多邻国漫画手册首页">duolingo</a><span class="edition">漫画工作手册</span></div><a class="source-link" href="https://app.notion.com/p/THE-DUOLINGO-HANDBOOK-fee886bc60ff83119a4381c4c6a804c8" target="_blank" rel="noopener">原文在这里 ↗</a></header>
   <div class="hero">
-    <div class="hero-copy"><p class="kicker">THE DUOLINGO HANDBOOK / 漫画版</p><h1>Duo 的<br><em>工作脑回路。</em></h1><p class="intro">5 条原则，6 个故事。<br>跟着绿猫头鹰，把工作做明白。</p><a class="cta" href="#01-long-view">开始看漫画 <span aria-hidden="true">↓</span></a></div>
+    <div class="hero-copy"><p class="kicker">THE DUOLINGO HANDBOOK / 全册漫画版</p><h1>Duo 的<br><em>工作脑回路。</em></h1><p class="intro">9 个章节，80 格漫画。<br>跟着绿猫头鹰，把工作做明白。</p><a class="cta" href="#letter-from-luis">开始看漫画 <span aria-hidden="true">↓</span></a></div>
     <div class="hero-picture"><div class="cover-bubble">工作，也可以这么玩？</div><div class="cover-art" role="img" aria-label="多邻国绿猫头鹰 Duo 举起做好的产品，和伙伴一起庆祝。"><svg viewBox="1448 0 724 724" aria-hidden="true"><use href="#asset-02-raise-the-bar"/></svg></div><div class="cover-note" aria-hidden="true">少一点字<br>多一点懂</div></div>
   </div>
-  <div class="mission-mini"><strong>从做产品，到一起把公司做好。</strong><span>2025 手册 · 18 格漫画</span></div>
+  <div class="mission-mini"><strong>从做产品，到一起把公司做好。</strong><span>2025 手册 · 完整目录解读</span></div>
+  <div class="contents" aria-label="全册目录"><a href="#letter-from-luis"><span>01</span>CEO 的一封信</a><a href="#quick-map"><span>02</span>核心原则速读</a><a href="#01-long-view"><span>03</span>长期主义</a><a href="#02-raise-the-bar"><span>04</span>提高标准</a><a href="#03-ship-it"><span>05</span>快速上线</a><a href="#04-show-dont-tell"><span>06</span>用结果说话</a><a href="#05-make-it-fun"><span>07</span>让产品有趣</a><a href="#06-green-machine"><span>08</span>绿色引擎</a><a href="#glossary"><span>09</span>漫画术语表</a></div>
 </div>
-<nav class="chapter-nav" aria-label="漫画章节"><div class="wrap nav-inner"><a href="#01-long-view"><span>01</span>看长远</a><a href="#02-raise-the-bar"><span>02</span>抬标准</a><a href="#03-ship-it"><span>03</span>快上线</a><a href="#04-show-dont-tell"><span>04</span>拿结果</a><a href="#05-make-it-fun"><span>05</span>有趣点</a><a href="#06-green-machine"><span>06</span>转起来</a></div><div class="reading-line" aria-hidden="true"></div></nav>
-<main class="wrap"><section class="chapter" id="01-long-view" aria-labelledby="heading-1" style="--accent:#ddf4c6">
+<nav class="chapter-nav" aria-label="漫画章节"><div class="wrap nav-inner"><a href="#letter-from-luis"><span>01</span>CEO 的信</a><a href="#quick-map"><span>02</span>核心速读</a><a href="#01-long-view"><span>03</span>看长远</a><a href="#02-raise-the-bar"><span>04</span>抬标准</a><a href="#03-ship-it"><span>05</span>快上线</a><a href="#04-show-dont-tell"><span>06</span>拿结果</a><a href="#05-make-it-fun"><span>07</span>有趣点</a><a href="#06-green-machine"><span>08</span>转起来</a><a href="#glossary"><span>09</span>漫画词典</a></div><div class="reading-line" aria-hidden="true"></div></nav>
+<main class="wrap"><section class="chapter" id="letter-from-luis" aria-labelledby="heading-1" style="--accent:#e1efcf">
       <div class="chapter-heading"><span class="chapter-number" aria-hidden="true">01</span><div>
-        <p class="chapter-label">Take the Long View</p><h2 id="heading-1">别把用户，推走了。</h2>
+        <p class="chapter-label">Letter from Luis</p><h2 id="heading-1">原则，是一起试出来的。</h2>
       </div></div>
-      <div class="strip"><figure class="panel">
-      <div class="panel-talk"><span class="speech">再提醒一次？</span></div>
-      <div class="art" role="img" aria-label="Duo 摇着一串铃铛，蓝衣学习者被提醒轰炸，捂着耳朵。"><svg viewBox="0 0 724 724" aria-hidden="true"><use href="#asset-01-long-view"/></svg></div>
-      <figcaption>短期数字很好看</figcaption>
-    </figure><figure class="panel">
-      <div class="panel-talk"><span class="speech">我先关了……</span></div>
-      <div class="art" role="img" aria-label="学习者关闭手机通知，Duo 着急地看着他离开。"><svg viewBox="724 0 724 724" aria-hidden="true"><use href="#asset-01-long-view"/></svg></div>
-      <figcaption>长期信任会流失</figcaption>
-    </figure><figure class="panel">
-      <div class="panel-talk"><span class="speech">慢慢来，走得远。</span></div>
-      <div class="art" role="img" aria-label="Duo 给小树浇水，学习者在长成的大树旁安静读书。"><svg viewBox="1448 0 724 724" aria-hidden="true"><use href="#asset-01-long-view"/></svg></div>
-      <figcaption>值得回来，才走得长</figcaption>
-    </figure></div>
-      <p class="lesson"><span class="lesson-mark" aria-hidden="true">↳</span><span>别透支明天的信任，换今天的数字。</span></p>
-      <details class="source-detail"><summary>再看一点原文</summary><div class="detail-body"><ul><li>提醒有上限：持续打扰，可能换来关闭通知。</li><li>留住用户，要靠更好的学习效果、体验和长期品牌。</li><li>先快速验证，再为真正有效的产品投入长期建设。</li></ul>
+      <div class="story"><h3 class="story-title">从酒吧楼上，到一本活的手册</h3><div class="strip"><figure class="panel">
+          <div class="panel-talk"><span class="speech">没现成答案？一起试。</span></div>
+          <div class="art" role="img" aria-label="Duo 和伙伴在简陋办公室里尝试各种产品点子。"><svg viewBox="0 0 724 724" aria-hidden="true"><use href="#asset-07-ceo-letter"/></svg></div>
+          <figcaption>文化来自真实的尝试和教训</figcaption>
+        </figure><figure class="panel">
+          <div class="panel-talk"><span class="speech">好的教育，大家都能学。</span></div>
+          <div class="art" role="img" aria-label="Duo 打开一本大书，欢迎不同年龄的学习者。"><svg viewBox="724 0 724 724" aria-hidden="true"><use href="#asset-07-ceo-letter"/></svg></div>
+          <figcaption>使命同时要求品质与普惠</figcaption>
+        </figure><figure class="panel">
+          <div class="panel-talk"><span class="speech">这条原则，还能更好吗？</span></div>
+          <div class="art" role="img" aria-label="伙伴用铅笔修订五张原则卡，Duo 好奇地一起查看。"><svg viewBox="1448 0 724 724" aria-hidden="true"><use href="#asset-07-ceo-letter"/></svg></div>
+          <figcaption>理解、质疑，再一起改进</figcaption>
+        </figure></div></div>
+      <p class="lesson"><span class="lesson-mark" aria-hidden="true">↳</span><span>好教育，人人可及；好原则，持续改进。</span></p>
+      <details class="source-detail"><summary>展开：这章的要点与出处</summary><div class="detail-body"><ul><li>Luis 回顾：多邻国的文化是在匹兹堡早期办公室里，从招聘、产品和组织的实际问题中摸索出来的。</li><li>这本手册总结了五条工作原则，也讨论怎样一起建设一家好公司。</li><li>原则不是适用于所有场景的固定答案；它们会发生张力，需要理解、挑战和改进。</li></ul><p class="reader-note"><strong>Will 的个人解读</strong>Notion 灰字把这段概括为“试错也是文化资产”。这是 Will 的个人解读。</p>
+        <a class="original-link" href="https://app.notion.com/p/Letter-from-Luis-CEO-311886bc60ff82c39aac8197778b0d69?pvs=25" target="_blank" rel="noopener">Notion 对应章节 ↗</a>
+        <span> · 手册第 2–3 页</span></div></details>
+    </section>
+<section class="chapter" id="quick-map" aria-labelledby="heading-2" style="--accent:#ecf4d9">
+      <div class="chapter-heading"><span class="chapter-number" aria-hidden="true">02</span><div>
+        <p class="chapter-label">TL;DR</p><h2 id="heading-2">先把整张地图，看明白。</h2>
+      </div></div>
+      <div class="strip map-grid"><a class="panel map-card" href="#01-long-view">
+          <div class="panel-talk"><span class="speech">01 · 长期主义</span></div>
+          <div class="art" role="img" aria-label="01 · 长期主义"><svg viewBox="1448 0 724 724" aria-hidden="true"><use href="#asset-01-long-view"/></svg></div>
+          <div class="map-caption">留住信任，投资人才与百年品牌。<span aria-hidden="true"> ↗</span></div></a><a class="panel map-card" href="#02-raise-the-bar">
+          <div class="panel-talk"><span class="speech">02 · 提高标准</span></div>
+          <div class="art" role="img" aria-label="02 · 提高标准"><svg viewBox="1448 0 724 724" aria-hidden="true"><use href="#asset-02-raise-the-bar"/></svg></div>
+          <div class="map-caption">有用、直观、有趣、精致；明确负责。<span aria-hidden="true"> ↗</span></div></a><a class="panel map-card" href="#03-ship-it">
+          <div class="panel-talk"><span class="speech">03 · 快速上线</span></div>
+          <div class="art" role="img" aria-label="03 · 快速上线"><svg viewBox="724 0 724 724" aria-hidden="true"><use href="#asset-03-ship-it"/></svg></div>
+          <div class="map-caption">减少等待，多做实验，聚焦高影响。<span aria-hidden="true"> ↗</span></div></a><a class="panel map-card" href="#04-show-dont-tell">
+          <div class="panel-talk"><span class="speech">04 · 用结果说话</span></div>
+          <div class="art" role="img" aria-label="04 · 用结果说话"><svg viewBox="724 0 724 724" aria-hidden="true"><use href="#asset-04-show-dont-tell"/></svg></div>
+          <div class="map-caption">展示成果；有分歧，就一起验证。<span aria-hidden="true"> ↗</span></div></a><a class="panel map-card" href="#05-make-it-fun">
+          <div class="panel-talk"><span class="speech">05 · 让产品有趣</span></div>
+          <div class="art" role="img" aria-label="05 · 让产品有趣"><svg viewBox="724 0 724 724" aria-hidden="true"><use href="#asset-05-make-it-fun"/></svg></div>
+          <div class="map-caption">好玩的学习、鲜明品牌、温暖团队。<span aria-hidden="true"> ↗</span></div></a><a class="panel map-card" href="#06-green-machine">
+          <div class="panel-talk"><span class="speech">06 · 绿色引擎</span></div>
+          <div class="art" role="img" aria-label="06 · 绿色引擎"><svg viewBox="724 0 724 724" aria-hidden="true"><use href="#asset-06-green-machine"/></svg></div>
+          <div class="map-caption">找人、定目标、设边界、反馈、执行、取舍。<span aria-hidden="true"> ↗</span></div></a></div>
+      <p class="lesson"><span class="lesson-mark" aria-hidden="true">↳</span><span>五条原则决定怎么想，绿色引擎决定怎么做。</span></p>
+      <details class="source-detail"><summary>展开：这章的要点与出处</summary><div class="detail-body"><ul><li>长期留存、人才成长和角色品牌，需要长期投入。</li><li>标准也包括每天亲自使用产品，以及对事坦诚、对人友善的反馈。</li><li>流程的价值，在于让决策更好、更快；快行动也需要优先级。</li><li>有趣服务于学习与连接；绿色引擎把这些原则组合成六步循环。</li></ul>
+        <a class="original-link" href="https://app.notion.com/p/TL-DR-830886bc60ff82689b5a81e24961f44a?pvs=25" target="_blank" rel="noopener">Notion 对应章节 ↗</a>
+        <span> · 手册第 4–5 页</span></div></details>
+    </section>
+<section class="chapter" id="01-long-view" aria-labelledby="heading-3" style="--accent:#ddf4c6">
+      <div class="chapter-heading"><span class="chapter-number" aria-hidden="true">03</span><div>
+        <p class="chapter-label">Take the Long View</p><h2 id="heading-3">把眼光，放到更远处。</h2>
+      </div></div>
+      <div class="story"><h3 class="story-title">01 / 别用提醒，耗掉信任</h3><div class="strip"><figure class="panel">
+          <div class="panel-talk"><span class="speech">再提醒一次？</span></div>
+          <div class="art" role="img" aria-label="Duo 摇着一串铃铛，蓝衣学习者被提醒轰炸，捂着耳朵。"><svg viewBox="0 0 724 724" aria-hidden="true"><use href="#asset-01-long-view"/></svg></div>
+          <figcaption>短期数字很好看</figcaption>
+        </figure><figure class="panel">
+          <div class="panel-talk"><span class="speech">我先关了……</span></div>
+          <div class="art" role="img" aria-label="学习者关闭手机通知，Duo 着急地看着他离开。"><svg viewBox="724 0 724 724" aria-hidden="true"><use href="#asset-01-long-view"/></svg></div>
+          <figcaption>长期信任会流失</figcaption>
+        </figure><figure class="panel">
+          <div class="panel-talk"><span class="speech">慢慢来，走得远。</span></div>
+          <div class="art" role="img" aria-label="Duo 给小树浇水，学习者在长成的大树旁安静读书。"><svg viewBox="1448 0 724 724" aria-hidden="true"><use href="#asset-01-long-view"/></svg></div>
+          <figcaption>值得回来，才走得长</figcaption>
+        </figure></div></div><div class="story"><h3 class="story-title">02 / 长期主义，也包括技术和人</h3><div class="strip"><figure class="panel">
+          <div class="panel-talk"><span class="speech">今天生涩，明天能更好。</span></div>
+          <div class="art" role="img" aria-label="Duo 与伙伴观察逐渐进步的语音机器人。"><svg viewBox="0 0 724 724" aria-hidden="true"><use href="#asset-08-long-tech-people"/></svg></div>
+          <figcaption>对技术进步保持耐心与乐观</figcaption>
+        </figure><figure class="panel">
+          <div class="panel-talk"><span class="speech">能做事，也能好好合作。</span></div>
+          <div class="art" role="img" aria-label="Duo 面试一位会动手、会沟通的候选人，把奖杯放到一旁。"><svg viewBox="724 0 724 724" aria-hidden="true"><use href="#asset-08-long-tech-people"/></svg></div>
+          <figcaption>宁可等，也不降低招聘标准</figcaption>
+        </figure><figure class="panel">
+          <div class="panel-talk"><span class="speech">一起长成，更厉害的人。</span></div>
+          <div class="art" role="img" aria-label="Duo 与伙伴栽树，旁边的人物随着时间掌握更多工具。"><svg viewBox="1448 0 724 724" aria-hidden="true"><use href="#asset-08-long-tech-people"/></svg></div>
+          <figcaption>培养能跨领域成长的伙伴</figcaption>
+        </figure></div></div><div class="story"><h3 class="story-title">03 / 产品的长期资产，要认真建</h3><div class="strip"><figure class="panel">
+          <div class="panel-talk"><span class="speech">让这个世界，更有生命。</span></div>
+          <div class="art" role="img" aria-label="Duo 和伙伴把僵硬的造型打磨成圆润活泼的角色。"><svg viewBox="0 0 724 724" aria-hidden="true"><use href="#asset-09-long-product"/></svg></div>
+          <figcaption>Juicy：更饱满、友好的设计</figcaption>
+        </figure><figure class="panel">
+          <div class="panel-talk"><span class="speech">学得怎样？要能证明。</span></div>
+          <div class="art" role="img" aria-label="Duo 展示有对勾的英语能力证书，旁边是学习阶梯。"><svg viewBox="724 0 724 724" aria-hidden="true"><use href="#asset-09-long-product"/></svg></div>
+          <figcaption>能力分数与 DET，积累可信度</figcaption>
+        </figure><figure class="panel">
+          <div class="panel-talk"><span class="speech">验证有效，再修大桥。</span></div>
+          <div class="art" role="img" aria-label="伙伴先测试小桥，再加固能承载更多手机的大桥。"><svg viewBox="1448 0 724 724" aria-hidden="true"><use href="#asset-09-long-product"/></svg></div>
+          <figcaption>有效的功能，才值得长期工程投入</figcaption>
+        </figure></div></div><div class="story"><h3 class="story-title">04 / 免费学习，也需要可持续的生意</h3><div class="strip"><figure class="panel">
+          <div class="panel-talk"><span class="speech">进来学，不必先付钱。</span></div>
+          <div class="art" role="img" aria-label="Duo 开着教室的大门，欢迎拿着书的不同学习者。"><svg viewBox="0 0 724 724" aria-hidden="true"><use href="#asset-10-long-business"/></svg></div>
+          <figcaption>让优质教育保持可及</figcaption>
+        </figure><figure class="panel">
+          <div class="panel-talk"><span class="speech">有人订阅，更多人能学。</span></div>
+          <div class="art" role="img" aria-label="一位订阅者投入硬币，资金流向免费课堂里的书。"><svg viewBox="724 0 724 724" aria-hidden="true"><use href="#asset-10-long-business"/></svg></div>
+          <figcaption>付费业务支持免费学习的使命</figcaption>
+        </figure><figure class="panel">
+          <div class="panel-talk"><span class="speech">这笔钱，会伤害学习吗？</span></div>
+          <div class="art" role="img" aria-label="Duo 在硬币与学习、小树之间做长期取舍。"><svg viewBox="1448 0 724 724" aria-hidden="true"><use href="#asset-10-long-business"/></svg></div>
+          <figcaption>商业化要守住体验与长期信任</figcaption>
+        </figure></div></div><div class="story"><h3 class="story-title">05 / 让品牌长久，让学习扎实</h3><div class="strip"><figure class="panel">
+          <div class="panel-talk"><span class="speech">每天见，也还想见。</span></div>
+          <div class="art" role="img" aria-label="Duo 与个性不同的角色一起欢迎学习者。"><svg viewBox="0 0 724 724" aria-hidden="true"><use href="#asset-11-long-brand"/></svg></div>
+          <figcaption>独特角色，成为日常的伙伴</figcaption>
+        </figure><figure class="panel">
+          <div class="panel-talk"><span class="speech">好到想告诉朋友。</span></div>
+          <div class="art" role="img" aria-label="学习者互相分享手机上的好体验，Duo 用小喇叭助力。"><svg viewBox="724 0 724 724" aria-hidden="true"><use href="#asset-11-long-brand"/></svg></div>
+          <figcaption>产品先赢口碑，营销再放大</figcaption>
+        </figure><figure class="panel">
+          <div class="panel-talk"><span class="speech">多走几步，基础更稳。</span></div>
+          <div class="art" role="img" aria-label="Duo 引导伙伴沿着连续课程小路扎实学习。"><svg viewBox="1448 0 724 724" aria-hidden="true"><use href="#asset-11-long-brand"/></svg></div>
+          <figcaption>Tree → Path：把真正学会放在前面</figcaption>
+        </figure></div></div>
+      <p class="lesson"><span class="lesson-mark" aria-hidden="true">↳</span><span>留存、人才、产品与品牌，都是慢慢长大的资产。</span></p>
+      <details class="source-detail"><summary>展开：这章的要点与出处</summary><div class="detail-body"><ul><li>开篇的长期视角包含使命、耐心资本，以及对技术持续进步的信心；长期主义也可能是主动的大胆投入。</li><li>招聘看出色能力、动手执行、清晰沟通与团队合作，并让多面手随公司成长。</li><li>Streak 等机制让短期体验可持续，长期目标仍是改善学习成果。提醒过多可能引发关闭通知或流失。</li><li>Juicy 视觉更新、能力分数及 DET 等案例，说明有些价值难以从眼前指标立刻看到。</li><li>工程不必一开始就造永久系统；先验证，成功后再为扩展与耐久投入。手册举了 Video Call 与通知工具的例子。</li><li>手册回顾免费增值、订阅与广告等商业化探索：收入要支持教育普惠，取舍要兼顾体验、留存和可持续性。</li><li>鲜明角色与完整世界有助于建立长期品牌；好产品和口碑是基础，付费营销帮助放大。</li><li>2022 年 Tree 转为 Path 的案例，强调扎实的学习路径；当下的活跃或收入数字，不必然体现长期学习价值。</li><li>这里的商业模式与功能案例来自 2025 年手册，属于当时的叙述。</li></ul><p class="reader-note"><strong>Will 的个人解读</strong>Notion 灰字进一步讨论了主动的长期投资、多面手与口碑增长。这些是个人解读，不应把“留存、增长、收入”写成适用于所有项目的固定排序。</p>
         <a class="original-link" href="https://app.notion.com/p/1-Take-the-Long-View-167886bc60ff83a9a5aa81ab3b81664d?pvs=25" target="_blank" rel="noopener">Notion 对应章节 ↗</a>
         <span> · 手册第 8–23 页</span></div></details>
     </section>
-<section class="chapter" id="02-raise-the-bar" aria-labelledby="heading-2" style="--accent:#ddecff">
-      <div class="chapter-heading"><span class="chapter-number" aria-hidden="true">02</span><div>
-        <p class="chapter-label">Raise the Bar</p><h2 id="heading-2">第一版，也要像样。</h2>
+<section class="chapter" id="02-raise-the-bar" aria-labelledby="heading-4" style="--accent:#ddecff">
+      <div class="chapter-heading"><span class="chapter-number" aria-hidden="true">04</span><div>
+        <p class="chapter-label">Raise the Bar</p><h2 id="heading-4">标准高，也能对人温柔。</h2>
       </div></div>
-      <div class="strip"><figure class="panel">
-      <div class="panel-talk"><span class="speech">这个小问题……</span></div>
-      <div class="art" role="img" aria-label="Duo 和学习者用放大镜发现平板上的小虫，认真检查产品。"><svg viewBox="0 0 724 724" aria-hidden="true"><use href="#asset-02-raise-the-bar"/></svg></div>
-      <figcaption>对作品认真挑毛病</figcaption>
-    </figure><figure class="panel">
-      <div class="panel-talk"><span class="speech">一起修好它。</span></div>
-      <div class="art" role="img" aria-label="学习者用螺丝刀修理平板，Duo 友善地一起帮忙。"><svg viewBox="724 0 724 724" aria-hidden="true"><use href="#asset-02-raise-the-bar"/></svg></div>
-      <figcaption>对同事保持善意</figcaption>
-    </figure><figure class="panel">
-      <div class="panel-talk"><span class="speech">小，但拿得出手！</span></div>
-      <div class="art" role="img" aria-label="Duo 举起有绿色对勾的平板，两人开心地展示做好的第一版。"><svg viewBox="1448 0 724 724" aria-hidden="true"><use href="#asset-02-raise-the-bar"/></svg></div>
-      <figcaption>交付完整、精致的 V1</figcaption>
-    </figure></div>
-      <p class="lesson"><span class="lesson-mark" aria-hidden="true">↳</span><span>范围可以小，品质不能随便。</span></p>
-      <details class="source-detail"><summary>再看一点原文</summary><div class="detail-body"><ul><li>好产品应当有用、直观、有趣，并经过打磨。</li><li>每天用自己的产品；给具体反馈，针对作品，善待人。</li><li>先做一个完整的 V1：功能可以少，体验要成立。</li></ul>
+      <div class="story"><h3 class="story-title">01 / 小范围，也要做出完整的第一版</h3><div class="strip"><figure class="panel">
+          <div class="panel-talk"><span class="speech">这个小问题……</span></div>
+          <div class="art" role="img" aria-label="Duo 和学习者用放大镜发现平板上的小虫，认真检查产品。"><svg viewBox="0 0 724 724" aria-hidden="true"><use href="#asset-02-raise-the-bar"/></svg></div>
+          <figcaption>对作品认真挑毛病</figcaption>
+        </figure><figure class="panel">
+          <div class="panel-talk"><span class="speech">一起修好它。</span></div>
+          <div class="art" role="img" aria-label="学习者用螺丝刀修理平板，Duo 友善地一起帮忙。"><svg viewBox="724 0 724 724" aria-hidden="true"><use href="#asset-02-raise-the-bar"/></svg></div>
+          <figcaption>对同事保持善意</figcaption>
+        </figure><figure class="panel">
+          <div class="panel-talk"><span class="speech">小，但拿得出手！</span></div>
+          <div class="art" role="img" aria-label="Duo 举起有绿色对勾的平板，两人开心地展示做好的第一版。"><svg viewBox="1448 0 724 724" aria-hidden="true"><use href="#asset-02-raise-the-bar"/></svg></div>
+          <figcaption>交付完整、精致的 V1</figcaption>
+        </figure></div></div><div class="story"><h3 class="story-title">02 / 一个功能，要过四道关</h3><div class="strip"><figure class="panel">
+          <div class="panel-talk"><span class="speech">有用，而且一眼会用。</span></div>
+          <div class="art" role="img" aria-label="老人和年轻人都能直接使用手机上的清晰功能。"><svg viewBox="0 0 724 724" aria-hidden="true"><use href="#asset-12-quality-four"/></svg></div>
+          <figcaption>① 有用　② 直观：解决真实问题</figcaption>
+        </figure><figure class="panel">
+          <div class="panel-talk"><span class="speech">刚刚好的一点惊喜。</span></div>
+          <div class="art" role="img" aria-label="手机里冒出小星星，学习者感到恰到好处的惊喜。"><svg viewBox="724 0 724 724" aria-hidden="true"><use href="#asset-12-quality-four"/></svg></div>
+          <figcaption>③ 有趣：让体验多一点魔法</figcaption>
+        </figure><figure class="panel">
+          <div class="panel-talk"><span class="speech">每个细节，都对齐。</span></div>
+          <div class="art" role="img" aria-label="Duo 与伙伴用尺子和布打磨手机的细节。"><svg viewBox="1448 0 724 724" aria-hidden="true"><use href="#asset-12-quality-four"/></svg></div>
+          <figcaption>④ 精致：文案、视觉、交互一致</figcaption>
+        </figure></div></div><div class="story"><h3 class="story-title">03 / 品质，要有人真正扛起来</h3><div class="strip"><figure class="panel">
+          <div class="panel-talk"><span class="speech">这件事，我负责到底。</span></div>
+          <div class="art" role="img" aria-label="Duo 把钥匙交给一个清晰的项目负责人，团队各就各位。"><svg viewBox="0 0 724 724" aria-hidden="true"><use href="#asset-13-quality-ownership"/></svg></div>
+          <figcaption>重要项目，明确一个责任人</figcaption>
+        </figure><figure class="panel">
+          <div class="panel-talk"><span class="speech">自己先用，再发现问题。</span></div>
+          <div class="art" role="img" aria-label="伙伴亲自使用手机，发现错误并摇动手机报告问题。"><svg viewBox="724 0 724 724" aria-hidden="true"><use href="#asset-13-quality-ownership"/></svg></div>
+          <figcaption>Dogfooding：日常使用与快速报错</figcaption>
+        </figure><figure class="panel">
+          <div class="panel-talk"><span class="speech">本事好，待人也要好。</span></div>
+          <div class="art" role="img" aria-label="Duo 欢迎帮助同事的优秀候选人，傲慢候选人离开。"><svg viewBox="1448 0 724 724" aria-hidden="true"><use href="#asset-13-quality-ownership"/></svg></div>
+          <figcaption>能力与品格，都不能妥协</figcaption>
+        </figure></div></div>
+      <p class="lesson"><span class="lesson-mark" aria-hidden="true">↳</span><span>认真挑作品的毛病，给同事具体而友善的帮助。</span></p>
+      <details class="source-detail"><summary>展开：这章的要点与出处</summary><div class="detail-body"><ul><li>卓越是日常标准，并不意味着一次就完美；出现问题要寻找原因，持续改进。</li><li>关键工作应有清晰责任人；跨团队也不能让责任变模糊。</li><li>反馈要坦诚、具体，讨论作品或行为，不攻击个人；接收反馈也要开放。</li><li>每天亲自使用产品；手册中的 Shake-to-Report，让任何同事都方便报告问题。</li><li>四项检查：有用、直观、有趣、精致。不同年龄、设备与地区的学习者，都应能自然理解。</li><li>有趣并不要求第一版就做复杂动画；细节打磨也包括避免重复或矛盾的控制。</li><li>招聘同时要求出色能力和友善品格；不能因为履历漂亮就忽略对人的态度。</li><li>手册强调完整且有品质的 V1。范围可以小，用户实际得到的体验应当成立；这仍需与上线速度结合判断。</li></ul>
         <a class="original-link" href="https://app.notion.com/p/2-Raise-the-Bar-b62886bc60ff82299d0b81bc1fa76bc2?pvs=25" target="_blank" rel="noopener">Notion 对应章节 ↗</a>
         <span> · 手册第 24–31 页</span></div></details>
     </section>
-<section class="chapter" id="03-ship-it" aria-labelledby="heading-3" style="--accent:#ffedaa">
-      <div class="chapter-heading"><span class="chapter-number" aria-hidden="true">03</span><div>
-        <p class="chapter-label">Ship It</p><h2 id="heading-3">少等一下，多试一次。</h2>
+<section class="chapter" id="03-ship-it" aria-labelledby="heading-5" style="--accent:#ffedaa">
+      <div class="chapter-heading"><span class="chapter-number" aria-hidden="true">05</span><div>
+        <p class="chapter-label">Ship It</p><h2 id="heading-5">把等待，变成一次试验。</h2>
       </div></div>
-      <div class="strip"><figure class="panel">
-      <div class="panel-talk"><span class="speech">再开个会？</span></div>
-      <div class="art" role="img" aria-label="Duo 和学习者埋在草稿与时钟里，迟迟没有开始行动。"><svg viewBox="0 0 724 724" aria-hidden="true"><use href="#asset-03-ship-it"/></svg></div>
-      <figcaption>等待，也在消耗时间</figcaption>
-    </figure><figure class="panel">
-      <div class="panel-talk"><span class="speech">先让用户试试！</span></div>
-      <div class="art" role="img" aria-label="两人跑着放飞绿色纸飞机，把产品送到真实用户手里。"><svg viewBox="724 0 724 724" aria-hidden="true"><use href="#asset-03-ship-it"/></svg></div>
-      <figcaption>把好点子送到用户手里</figcaption>
-    </figure><figure class="panel">
-      <div class="panel-talk"><span class="speech">好的，继续长。</span></div>
-      <div class="art" role="img" aria-label="Duo 给健康的小苗浇水，学习者丢掉枯萎的小苗。"><svg viewBox="1448 0 724 724" aria-hidden="true"><use href="#asset-03-ship-it"/></svg></div>
-      <figcaption>有效加码，无效停止</figcaption>
-    </figure></div>
-      <p class="lesson"><span class="lesson-mark" aria-hidden="true">↳</span><span>缩短等待，把精力留给真正有效的事。</span></p>
-      <details class="source-detail"><summary>再看一点原文</summary><div class="detail-body"><ul><li>持续试验，提高两次行动之间的节奏。</li><li>优先做影响大的事；已经投入很多，也不等于值得继续。</li><li>速度与品质要一起判断，用使命决定当下的取舍。</li></ul>
+      <div class="story"><h3 class="story-title">01 / 缩短停顿，专注真正有效的事</h3><div class="strip"><figure class="panel">
+          <div class="panel-talk"><span class="speech">再开个会？</span></div>
+          <div class="art" role="img" aria-label="Duo 和学习者埋在草稿与时钟里，迟迟没有开始行动。"><svg viewBox="0 0 724 724" aria-hidden="true"><use href="#asset-03-ship-it"/></svg></div>
+          <figcaption>等待，也在消耗时间</figcaption>
+        </figure><figure class="panel">
+          <div class="panel-talk"><span class="speech">先让用户试试！</span></div>
+          <div class="art" role="img" aria-label="两人跑着放飞绿色纸飞机，把产品送到真实用户手里。"><svg viewBox="724 0 724 724" aria-hidden="true"><use href="#asset-03-ship-it"/></svg></div>
+          <figcaption>把好点子送到用户手里</figcaption>
+        </figure><figure class="panel">
+          <div class="panel-talk"><span class="speech">好的，继续长。</span></div>
+          <div class="art" role="img" aria-label="Duo 给健康的小苗浇水，学习者丢掉枯萎的小苗。"><svg viewBox="1448 0 724 724" aria-hidden="true"><use href="#asset-03-ship-it"/></svg></div>
+          <figcaption>有效加码，无效停止</figcaption>
+        </figure></div></div><div class="story"><h3 class="story-title">02 / 想法可以大胆，协作要跑顺</h3><div class="strip"><figure class="panel">
+          <div class="panel-talk"><span class="speech">这个怪点子，能试试吗？</span></div>
+          <div class="art" role="img" aria-label="Duo 与伙伴从夸张草图里挑出值得尝试的点子。"><svg viewBox="0 0 724 724" aria-hidden="true"><use href="#asset-14-ship-system"/></svg></div>
+          <figcaption>99 个糟糕想法，也可能长出好机会</figcaption>
+        </figure><figure class="panel">
+          <div class="panel-talk"><span class="speech">用户看到的，是一个产品。</span></div>
+          <div class="art" role="img" aria-label="不同团队把各自的产品碎片拼成一个完整手机。"><svg viewBox="724 0 724 724" aria-hidden="true"><use href="#asset-14-ship-system"/></svg></div>
+          <figcaption>别让团队边界变成体验断层</figcaption>
+        </figure><figure class="panel">
+          <div class="panel-talk"><span class="speech">决定清楚，就一起往前。</span></div>
+          <div class="art" role="img" aria-label="开放评审桌上留下一个明确的决定和推进方向。"><svg viewBox="1448 0 724 724" aria-hidden="true"><use href="#asset-14-ship-system"/></svg></div>
+          <figcaption>好的评审，让决策清楚又迅速</figcaption>
+        </figure></div></div>
+      <p class="lesson"><span class="lesson-mark" aria-hidden="true">↳</span><span>快的关键，是更少停顿、更早反馈、更准的取舍。</span></p>
+      <details class="source-detail"><summary>展开：这章的要点与出处</summary><div class="detail-body"><ul><li>Clock Speed 指缩短决定到执行、反馈到改进之间的间隔。它并不等于盲目赶工。</li><li>手册描述每周更新与同时运行大量实验；越早得到真实反馈，越早学习，改进才能积累。</li><li>从清晰目标出发，把资源投向最高影响的事；不要因为已经投入很多，就继续无效的项目。</li><li>删除无用功能、减少复杂度，与创建新功能同样重要。</li><li>“99 Bad Ideas”鼓励大胆提问；实验停止也能产生学习，不是每个实验都应上线。</li><li>整个产品的体验需要连贯，团队分工不能成为用户的负担。</li><li>PR 等流程应让正式决定、责任人与相关信息被看见。市场评审同样可以提高一致性。</li><li>快与好发生张力时，要回到使命与具体用户价值。生成式 AI 是手册用来讨论这种取舍的案例。</li></ul><p class="reader-note"><strong>Will 的个人解读</strong>Notion 灰字用“先达合格线，再做快与好的取舍”帮助解释张力；其中 70% 等数字是个人举例，不是多邻国规定的质量门槛。</p>
         <a class="original-link" href="https://app.notion.com/p/3-Ship-It-87c886bc60ff8245b732817a65104548?pvs=25" target="_blank" rel="noopener">Notion 对应章节 ↗</a>
         <span> · 手册第 32–39 页</span></div></details>
     </section>
-<section class="chapter" id="04-show-dont-tell" aria-labelledby="heading-4" style="--accent:#f1dcff">
-      <div class="chapter-heading"><span class="chapter-number" aria-hidden="true">04</span><div>
-        <p class="chapter-label">Show, Don’t Tell</p><h2 id="heading-4">把原型，放到桌上。</h2>
+<section class="chapter" id="04-show-dont-tell" aria-labelledby="heading-6" style="--accent:#f1dcff">
+      <div class="chapter-heading"><span class="chapter-number" aria-hidden="true">06</span><div>
+        <p class="chapter-label">Show, Don’t Tell</p><h2 id="heading-6">先给人看，再一起判断。</h2>
       </div></div>
-      <div class="strip"><figure class="panel">
-      <div class="panel-talk"><span class="speech">我有一个宏大想法……</span></div>
-      <div class="art" role="img" aria-label="学习者展示一大叠演示稿，Duo 打着哈欠。"><svg viewBox="0 0 724 724" aria-hidden="true"><use href="#asset-04-show-dont-tell"/></svg></div>
-      <figcaption>说得精彩还不够</figcaption>
-    </figure><figure class="panel">
-      <div class="panel-talk"><span class="speech">来，直接试。</span></div>
-      <div class="art" role="img" aria-label="学习者把可以操作的平板交给 Duo，当场体验原型。"><svg viewBox="724 0 724 724" aria-hidden="true"><use href="#asset-04-show-dont-tell"/></svg></div>
-      <figcaption>能体验，才说得明白</figcaption>
-    </figure><figure class="panel">
-      <div class="panel-talk"><span class="speech">看看实际发生了什么。</span></div>
-      <div class="art" role="img" aria-label="Duo 和学习者观察两名用户的真实反应，并查看图表。"><svg viewBox="1448 0 724 724" aria-hidden="true"><use href="#asset-04-show-dont-tell"/></svg></div>
-      <figcaption>用数据，也用观察</figcaption>
-    </figure></div>
-      <p class="lesson"><span class="lesson-mark" aria-hidden="true">↳</span><span>让人看见成果，比描述努力更有说服力。</span></p>
-      <details class="source-detail"><summary>再看一点原文</summary><div class="detail-body"><ul><li>先给结论；能用原型表达，就让大家直接体验。</li><li>意见不一致时，共同推进，用实验结果继续判断。</li><li>指标不是全部：学习效果也需要专业判断和用户观察。</li></ul>
+      <div class="story"><h3 class="story-title">01 / 把可以体验的东西，放到桌上</h3><div class="strip"><figure class="panel">
+          <div class="panel-talk"><span class="speech">我有一个宏大想法……</span></div>
+          <div class="art" role="img" aria-label="学习者展示一大叠演示稿，Duo 打着哈欠。"><svg viewBox="0 0 724 724" aria-hidden="true"><use href="#asset-04-show-dont-tell"/></svg></div>
+          <figcaption>说得精彩还不够</figcaption>
+        </figure><figure class="panel">
+          <div class="panel-talk"><span class="speech">来，直接试。</span></div>
+          <div class="art" role="img" aria-label="学习者把可以操作的平板交给 Duo，当场体验原型。"><svg viewBox="724 0 724 724" aria-hidden="true"><use href="#asset-04-show-dont-tell"/></svg></div>
+          <figcaption>能体验，才说得明白</figcaption>
+        </figure><figure class="panel">
+          <div class="panel-talk"><span class="speech">看看实际发生了什么。</span></div>
+          <div class="art" role="img" aria-label="Duo 和学习者观察两名用户的真实反应，并查看图表。"><svg viewBox="1448 0 724 724" aria-hidden="true"><use href="#asset-04-show-dont-tell"/></svg></div>
+          <figcaption>用数据，也用观察</figcaption>
+        </figure></div></div><div class="story"><h3 class="story-title">02 / 结论清楚，体验直观，证据完整</h3><div class="strip"><figure class="panel">
+          <div class="panel-talk"><span class="speech">结论先说，证据跟上。</span></div>
+          <div class="art" role="img" aria-label="伙伴把厚厚的资料提炼为一张清楚的结论卡。"><svg viewBox="0 0 724 724" aria-hidden="true"><use href="#asset-15-show-clear"/></svg></div>
+          <figcaption>TL;DR：把重要信息提炼到开头</figcaption>
+        </figure><figure class="panel">
+          <div class="panel-talk"><span class="speech">不用说明，也知道怎么用。</span></div>
+          <div class="art" role="img" aria-label="一位老人直接通过手机里的图片和操作开始学习。"><svg viewBox="724 0 724 724" aria-hidden="true"><use href="#asset-15-show-clear"/></svg></div>
+          <figcaption>设计和练习，让人自然理解</figcaption>
+        </figure><figure class="panel">
+          <div class="panel-talk"><span class="speech">数字好看，真的学会了吗？</span></div>
+          <div class="art" role="img" aria-label="Duo 对照增长图表与真实学习者的困惑。"><svg viewBox="1448 0 724 724" aria-hidden="true"><use href="#asset-15-show-clear"/></svg></div>
+          <figcaption>数据之外，还要观察与专业判断</figcaption>
+        </figure></div></div><div class="story"><h3 class="story-title">03 / 分歧靠验证，信任靠贡献</h3><div class="strip"><figure class="panel">
+          <div class="panel-talk"><span class="speech">意见不同，先一起验证。</span></div>
+          <div class="art" role="img" aria-label="有不同想法的 Duo 和伙伴一起推动两种方案的实验。"><svg viewBox="0 0 724 724" aria-hidden="true"><use href="#asset-16-show-trust"/></svg></div>
+          <figcaption>Disagree and Commit：决定后共同推进</figcaption>
+        </figure><figure class="panel">
+          <div class="panel-talk"><span class="speech">每次交付，都充一点电。</span></div>
+          <div class="art" role="img" aria-label="伙伴交付有用产品，信任电池增加一个绿色格。"><svg viewBox="724 0 724 724" aria-hidden="true"><use href="#asset-16-show-trust"/></svg></div>
+          <figcaption>Trust Battery：成果积累合作信任</figcaption>
+        </figure><figure class="panel">
+          <div class="panel-talk"><span class="speech">好点子，也要看见提出它的人。</span></div>
+          <div class="art" role="img" aria-label="团队向出色贡献者颁发小灯泡奖杯。"><svg viewBox="1448 0 724 724" aria-hidden="true"><use href="#asset-16-show-trust"/></svg></div>
+          <figcaption>团队优先，也表彰出色的创新</figcaption>
+        </figure></div></div>
+      <p class="lesson"><span class="lesson-mark" aria-hidden="true">↳</span><span>成果让想法被看见，证据让大家继续往前。</span></p>
+      <details class="source-detail"><summary>展开：这章的要点与出处</summary><div class="detail-body"><ul><li>沟通围绕实际效果；有可靠数据时，先展示结果，而不是描述投入了多少努力。</li><li>TL;DR 放在重要沟通的开头。提炼信息本身，也能帮助理清思考。</li><li>数据不能完整代表所有价值，学习效果尤其需要观察、研究与专业判断。</li><li>原型能更快统一对复杂想法的理解；直观产品减少操作说明，把注意力留给学习。</li><li>学习也通过练习与体验发生，不必把所有规则都变成冗长解释。</li><li>Ideas Before Egos：让想法得到验证机会，结果比地位或面子重要。</li><li>Disagree and Commit：可以保留不同意见，但要共同执行已选定的试验；排行榜是手册中的例子。</li><li>信任电量靠有效贡献积累，实习生与高管都需要实际成果。</li><li>公司强调团队，也在周年活动中认可特别出色的个人创新。</li></ul><p class="reader-note"><strong>Will 的个人解读</strong>Notion 灰字建议用“结论＋证据＋行动”写 TL;DR，并补充作品集仍可能需要背景和过程。这是 Will 的应用建议；页面不把其示例增长数字当成真实实验结果。</p>
         <a class="original-link" href="https://app.notion.com/p/4-Show-Don-t-Tell-926886bc60ff83e49e5001c2ffb6dd2f?pvs=25" target="_blank" rel="noopener">Notion 对应章节 ↗</a>
         <span> · 手册第 40–47 页</span></div></details>
     </section>
-<section class="chapter" id="05-make-it-fun" aria-labelledby="heading-5" style="--accent:#ffdce4">
-      <div class="chapter-heading"><span class="chapter-number" aria-hidden="true">05</span><div>
-        <p class="chapter-label">Make It Fun</p><h2 id="heading-5">好玩，才想再回来。</h2>
+<section class="chapter" id="05-make-it-fun" aria-labelledby="heading-7" style="--accent:#ffdce4">
+      <div class="chapter-heading"><span class="chapter-number" aria-hidden="true">07</span><div>
+        <p class="chapter-label">Make It Fun</p><h2 id="heading-7">让学习，值得期待。</h2>
       </div></div>
-      <div class="strip"><figure class="panel">
-      <div class="panel-talk"><span class="speech">学习，好困……</span></div>
-      <div class="art" role="img" aria-label="学习者趴在枯燥的灰色书本旁，Duo 也无精打采。"><svg viewBox="0 0 724 724" aria-hidden="true"><use href="#asset-05-make-it-fun"/></svg></div>
-      <figcaption>只有内容，还不够</figcaption>
-    </figure><figure class="panel">
-      <div class="panel-talk"><span class="speech">这一关有点意思！</span></div>
-      <div class="art" role="img" aria-label="Duo 把书变成有星星与惊喜的学习小路，学习者开心参与。"><svg viewBox="724 0 724 724" aria-hidden="true"><use href="#asset-05-make-it-fun"/></svg></div>
-      <figcaption>角色、惊喜，让人投入</figcaption>
-    </figure><figure class="panel">
-      <div class="panel-talk"><span class="speech">明天还想来。</span></div>
-      <div class="art" role="img" aria-label="Duo 戴着派对帽跳舞，学习者主动回到手机继续学习，旁边有人安静读书。"><svg viewBox="1448 0 724 724" aria-hidden="true"><use href="#asset-05-make-it-fun"/></svg></div>
-      <figcaption>乐趣服务于真正的学习</figcaption>
-    </figure></div>
-      <p class="lesson"><span class="lesson-mark" aria-hidden="true">↳</span><span>让有意义的事，也让人乐在其中。</span></p>
-      <details class="source-detail"><summary>再看一点原文</summary><div class="detail-body"><ul><li>学习在和娱乐争夺注意力：要有用，也要有趣。</li><li>鲜明的角色、幽默和惊喜，可以让品牌更有记忆点。</li><li>有趣也要尊重边界，让团队敢表达、安心做自己。</li></ul>
+      <div class="story"><h3 class="story-title">01 / 好玩的世界，让人愿意继续学</h3><div class="strip"><figure class="panel">
+          <div class="panel-talk"><span class="speech">学习，好困……</span></div>
+          <div class="art" role="img" aria-label="学习者趴在枯燥的灰色书本旁，Duo 也无精打采。"><svg viewBox="0 0 724 724" aria-hidden="true"><use href="#asset-05-make-it-fun"/></svg></div>
+          <figcaption>只有内容，还不够</figcaption>
+        </figure><figure class="panel">
+          <div class="panel-talk"><span class="speech">这一关有点意思！</span></div>
+          <div class="art" role="img" aria-label="Duo 把书变成有星星与惊喜的学习小路，学习者开心参与。"><svg viewBox="724 0 724 724" aria-hidden="true"><use href="#asset-05-make-it-fun"/></svg></div>
+          <figcaption>角色、惊喜，让人投入</figcaption>
+        </figure><figure class="panel">
+          <div class="panel-talk"><span class="speech">明天还想来。</span></div>
+          <div class="art" role="img" aria-label="Duo 戴着派对帽跳舞，学习者主动回到手机继续学习，旁边有人安静读书。"><svg viewBox="1448 0 724 724" aria-hidden="true"><use href="#asset-05-make-it-fun"/></svg></div>
+          <figcaption>乐趣服务于真正的学习</figcaption>
+        </figure></div></div><div class="story"><h3 class="story-title">02 / 有趣的产品，来自安心的团队</h3><div class="strip"><figure class="panel">
+          <div class="panel-talk"><span class="speech">进来聊，问题可以直接问。</span></div>
+          <div class="art" role="img" aria-label="透明会议室开着门，新同事带着问题加入。"><svg viewBox="0 0 724 724" aria-hidden="true"><use href="#asset-17-fun-culture"/></svg></div>
+          <figcaption>Open Doors：信息与沟通更开放</figcaption>
+        </figure><figure class="panel">
+          <div class="panel-talk"><span class="speech">一起玩，也一起放松。</span></div>
+          <div class="art" role="img" aria-label="Duo 戴派对帽，伙伴们参加轻松社团与小狗游行。"><svg viewBox="724 0 724 724" aria-hidden="true"><use href="#asset-17-fun-culture"/></svg></div>
+          <figcaption>兴趣社团、团建，让连接自然发生</figcaption>
+        </figure><figure class="panel">
+          <div class="panel-talk"><span class="speech">你想安静待着？也很好。</span></div>
+          <div class="art" role="img" aria-label="有人参加游戏，有人安静读书，Duo 尊重两种选择。"><svg viewBox="1448 0 724 724" aria-hidden="true"><use href="#asset-17-fun-culture"/></svg></div>
+          <figcaption>尊重边界，快乐才有基础</figcaption>
+        </figure></div></div><div class="story"><h3 class="story-title">03 / 鲜明的品牌，敢把笑点玩到底</h3><div class="strip"><figure class="panel">
+          <div class="panel-talk"><span class="speech">有点暖，也有点疯。</span></div>
+          <div class="art" role="img" aria-label="Duo 在可爱与戏剧化搞怪两种姿态间切换，伙伴开心地笑。"><svg viewBox="0 0 724 724" aria-hidden="true"><use href="#asset-18-fun-brand"/></svg></div>
+          <figcaption>Wholesome + Unhinged：温暖与出人意料</figcaption>
+        </figure><figure class="panel">
+          <div class="panel-talk"><span class="speech">愚人节？来场冰上秀！</span></div>
+          <div class="art" role="img" aria-label="Duo 在聚光灯下表演荒诞有趣的冰上秀。"><svg viewBox="724 0 724 724" aria-hidden="true"><use href="#asset-18-fun-brand"/></svg></div>
+          <figcaption>把离谱点子，认真做成品牌事件</figcaption>
+        </figure><figure class="panel">
+          <div class="panel-talk"><span class="speech">只有五秒，每一帧都要有记忆。</span></div>
+          <div class="art" role="img" aria-label="体育场的大屏上播放短小的 Duo 广告，团队在后台协作。"><svg viewBox="1448 0 724 724" aria-hidden="true"><use href="#asset-18-fun-brand"/></svg></div>
+          <figcaption>短广告背后，是跨团队的长期打磨</figcaption>
+        </figure></div></div>
+      <p class="lesson"><span class="lesson-mark" aria-hidden="true">↳</span><span>让人愿意回来，同时真的学到东西。</span></p>
+      <details class="source-detail"><summary>展开：这章的要点与出处</summary><div class="detail-body"><ul><li>游戏化、角色、幽默和意外的句子，让学习更容易投入；乐趣仍然服务于学习目标。</li><li>教育产品也在与娱乐争夺注意力；多邻国希望这段时间有目的、有效果。</li><li>开放问答、可旁听的产品评审、容易联系的领导，让成员敢提问题、尝试新东西。</li><li>手册描述兴趣社团、小狗游行和没有培训议程的团建，强调轻松连接与快乐的环境。</li><li>幽默因人而异；关心、尊重、多元与边界，是自由表达的基础。</li><li>品牌既温暖又出人意料。它不必让所有人都喜欢，但要有鲜明个性。</li><li>Duo 的网络人设与夸张玩笑，是品牌叙事；这里的漫画用无害的舞台表演来表现。</li><li>愚人节冰上秀、2024 年五秒超级碗广告，是手册里的历史案例：创意有限制，制作仍需认真投入。</li></ul>
         <a class="original-link" href="https://app.notion.com/p/5-Make-It-Fun-20c886bc60ff8389959b817d0b49de4a?pvs=25" target="_blank" rel="noopener">Notion 对应章节 ↗</a>
         <span> · 手册第 48–57 页</span></div></details>
     </section>
-<section class="chapter" id="06-green-machine" aria-labelledby="heading-6" style="--accent:#d8f4b8">
-      <div class="chapter-heading"><span class="chapter-number" aria-hidden="true">06</span><div>
-        <p class="chapter-label">The Green Machine</p><h2 id="heading-6">让好点子，跑起来。</h2>
+<section class="chapter" id="06-green-machine" aria-labelledby="heading-8" style="--accent:#d8f4b8">
+      <div class="chapter-heading"><span class="chapter-number" aria-hidden="true">08</span><div>
+        <p class="chapter-label">The Green Machine</p><h2 id="heading-8">六步，让好点子转起来。</h2>
       </div></div>
-      <div class="strip"><figure class="panel">
-      <div class="panel-talk"><span class="speech">先弄清：什么算成功？</span></div>
-      <div class="art" role="img" aria-label="Duo、蓝衣学习者和紫衣伙伴围绕一个靶心，组成小团队并确定成功标准。"><svg viewBox="0 0 724 724" aria-hidden="true"><use href="#asset-06-green-machine"/></svg></div>
-      <figcaption>① 找对人　② 定义成功</figcaption>
-    </figure><figure class="panel">
-      <div class="panel-talk"><span class="speech">做出来，听反馈。</span></div>
-      <div class="art" role="img" aria-label="绿色机器在护栏内产出产品，团队观察用户并收集反馈。"><svg viewBox="724 0 724 724" aria-hidden="true"><use href="#asset-06-green-machine"/></svg></div>
-      <figcaption>③ 设护栏　④ 做出来、收反馈</figcaption>
-    </figure><figure class="panel">
-      <div class="panel-talk"><span class="speech">有用，就继续投入。</span></div>
-      <div class="art" role="img" aria-label="团队继续培育有效的点子，把无效方案放入回收箱，绿色箭头形成循环。"><svg viewBox="1448 0 724 724" aria-hidden="true"><use href="#asset-06-green-machine"/></svg></div>
-      <figcaption>⑤ 快且好　⑥ 加码或停止</figcaption>
-    </figure></div>
-      <p class="lesson"><span class="lesson-mark" aria-hidden="true">↳</span><span>小团队、清目标、快反馈，再决定下一步。</span></p>
-      <details class="source-detail"><summary>再看一点原文</summary><div class="detail-body"><ul><li>先精干起步；成功标准可以是数据，也可以是早期的定性判断。</li><li>设定护栏，照顾长期目标；持续收集数据和用户反馈。</li><li>保持速度与品质：有效就加码，无效就停止，并进入下一轮。</li><li>这套循环需要规划支撑：季度目标、年度目标与财务计划仍然重要。</li></ul>
+      <div class="story"><h3 class="story-title">01 / 先搭好开始的条件</h3><div class="strip"><figure class="panel">
+          <div class="panel-talk"><span class="speech">先找一小队，厉害的伙伴。</span></div>
+          <div class="art" role="img" aria-label="Duo 组建能动手做事的精干团队。"><svg viewBox="0 0 724 724" aria-hidden="true"><use href="#asset-19-green-plan"/></svg></div>
+          <figcaption>① 找优秀的人，精干起步</figcaption>
+        </figure><figure class="panel">
+          <div class="panel-talk"><span class="speech">做到什么，才算成功？</span></div>
+          <div class="art" role="img" aria-label="团队一起指向清楚的靶心和学习目标。"><svg viewBox="724 0 724 724" aria-hidden="true"><use href="#asset-19-green-plan"/></svg></div>
+          <figcaption>② 定义成功：指标或清晰的早期目标</figcaption>
+        </figure><figure class="panel">
+          <div class="panel-talk"><span class="speech">哪些东西，不能被牺牲？</span></div>
+          <div class="art" role="img" aria-label="Duo 用护栏保护学习者和小树，伙伴观察远方。"><svg viewBox="1448 0 724 724" aria-hidden="true"><use href="#asset-19-green-plan"/></svg></div>
+          <figcaption>③ 设护栏：守住长期价值与信任</figcaption>
+        </figure></div></div><div class="story"><h3 class="story-title">02 / 做出来，快反馈，再做取舍</h3><div class="strip"><figure class="panel">
+          <div class="panel-talk"><span class="speech">给用户试，听他们怎么说。</span></div>
+          <div class="art" role="img" aria-label="真实用户试用原型，反馈和图表回到团队手里。"><svg viewBox="0 0 724 724" aria-hidden="true"><use href="#asset-20-green-loop"/></svg></div>
+          <figcaption>④ 构建产品，建立定量与定性反馈</figcaption>
+        </figure><figure class="panel">
+          <div class="panel-talk"><span class="speech">快一点，也认真一点。</span></div>
+          <div class="art" role="img" aria-label="团队同时关注计时器、质量检查与交付。"><svg viewBox="724 0 724 724" aria-hidden="true"><use href="#asset-20-green-loop"/></svg></div>
+          <figcaption>⑤ 以紧迫感和高标准执行</figcaption>
+        </figure><figure class="panel">
+          <div class="panel-talk"><span class="speech">有效就加码，无效就停。</span></div>
+          <div class="art" role="img" aria-label="Duo 培育成功的小苗，伙伴关闭无效项目并进入下一轮。"><svg viewBox="1448 0 724 724" aria-hidden="true"><use href="#asset-20-green-loop"/></svg></div>
+          <figcaption>⑥ 放大有效的，停止无效的</figcaption>
+        </figure></div></div><p class="plan-note">循环要灵活，规划仍要有：季度 OKR、年度目标、长期财务计划。</p>
+      <p class="lesson"><span class="lesson-mark" aria-hidden="true">↳</span><span>做一轮，看反馈；有效加码，再做下一轮。</span></p>
+      <details class="source-detail"><summary>展开：这章的要点与出处</summary><div class="detail-body"><ul><li>绿色引擎把五条原则变成持续改进的六步方法；卡住时可以逐项检查。</li><li>先保持精干，验证成功后再加资源。</li><li>能量化就量化；早期信号不足时，先定清楚方向与定性目标。</li><li>护栏不只是一个指标上限，也包括产品对学习者与公司的长期价值。</li><li>早期更依赖用户观察、内部使用等定性反馈，之后再结合 A/B 等量化试验。</li><li>速度与品质要同时成立；有效项目继续投入，无效项目甚至整个产品也应停止。</li><li>这套方法不替代规划。公司仍有季度、年度与财务计划，但避免把多年产品路线图固定不变。</li></ul>
         <a class="original-link" href="https://app.notion.com/p/The-Green-Machine-397886bc60ff8333abbd81e3b2ae559a?pvs=25" target="_blank" rel="noopener">Notion 对应章节 ↗</a>
         <span> · 手册第 58–61 页</span></div></details>
     </section>
+<section class="chapter" id="glossary" aria-labelledby="heading-9" style="--accent:#e8e5f8">
+      <div class="chapter-heading"><span class="chapter-number" aria-hidden="true">09</span><div>
+        <p class="chapter-label">Glossary</p><h2 id="heading-9">17 个词，看图就明白。</h2>
+      </div></div>
+      <div class="term-grid"><article class="term-card"><div class="art" role="img" aria-label="业务收款"><svg viewBox="1448 0 724 724" aria-hidden="true"><use href="#asset-21-glossary-metrics"/></svg></div>
+              <div class="term-copy"><h3>Bookings</h3><strong>业务收款</strong><p>订阅、内购、DET 与广告等业务带来的款项。</p><details class="term-hint"><summary>小提示</summary><p>不宜直接等同会计确认的收入。</p></details></div></article><article class="term-card"><div class="art" role="img" aria-label="日活跃用户"><svg viewBox="0 0 724 724" aria-hidden="true"><use href="#asset-21-glossary-metrics"/></svg></div>
+              <div class="term-copy"><h3>DAUs</h3><strong>日活跃用户</strong><p>一天内使用产品的独立用户数量。</p><details class="term-hint"><summary>小提示</summary><p>同一个人使用多次，不重复算人。</p></details></div></article><article class="term-card"><div class="art" role="img" aria-label="多邻国英语测试"><svg viewBox="724 0 724 724" aria-hidden="true"><use href="#asset-09-long-product"/></svg></div>
+              <div class="term-copy"><h3>DET</h3><strong>多邻国英语测试</strong><p>证明英语能力的自适应认证考试。</p><details class="term-hint"><summary>小提示</summary><p>手册中用于高校申请等场景。</p></details></div></article><article class="term-card"><div class="art" role="img" aria-label="自己先用自己的产品"><svg viewBox="724 0 724 724" aria-hidden="true"><use href="#asset-13-quality-ownership"/></svg></div>
+              <div class="term-copy"><h3>Dogfooding</h3><strong>自己先用自己的产品</strong><p>员工亲自使用、测试并发现问题。</p></div></article><article class="term-card"><div class="art" role="img" aria-label="绿猫头鹰吉祥物"><svg viewBox="0 0 724 724" aria-hidden="true"><use href="#asset-18-fun-brand"/></svg></div>
+              <div class="term-copy"><h3>Duo</h3><strong>绿猫头鹰吉祥物</strong><p>多邻国品牌里，可爱又会搞怪的角色。</p><details class="term-hint"><summary>小提示</summary><p>原文词条遮挡了部分内容，未补写身世。</p></details></div></article><article class="term-card"><div class="art" role="img" aria-label="多邻国周年庆"><svg viewBox="1448 0 724 724" aria-hidden="true"><use href="#asset-22-glossary-culture"/></svg></div>
+              <div class="term-copy"><h3>Duoversary</h3><strong>多邻国周年庆</strong><p>全公司庆祝产品公开发布的周年纪念。</p><details class="term-hint"><summary>小提示</summary><p>发布日：2012 年 6 月 19 日。</p></details></div></article><article class="term-card"><div class="art" role="img" aria-label="实验"><svg viewBox="0 0 724 724" aria-hidden="true"><use href="#asset-16-show-trust"/></svg></div>
+              <div class="term-copy"><h3>Experiments</h3><strong>实验</strong><p>验证什么有效、什么无效；A/B 对比多种方案。</p></div></article><article class="term-card"><div class="art" role="img" aria-label="冲冲冲！"><svg viewBox="724 0 724 724" aria-hidden="true"><use href="#asset-03-ship-it"/></svg></div>
+              <div class="term-copy"><h3>Go, Go, Go!</h3><strong>冲冲冲！</strong><p>Luis 在方向正确时，鼓励继续推进的话。</p></div></article><article class="term-card"><div class="art" role="img" aria-label="更饱满、更有生命力"><svg viewBox="0 0 724 724" aria-hidden="true"><use href="#asset-09-long-product"/></svg></div>
+              <div class="term-copy"><h3>Juicy</h3><strong>更饱满、更有生命力</strong><p>多邻国友好、圆润、活泼的视觉设计语言。</p></div></article><article class="term-card"><div class="art" role="img" aria-label="月活跃用户"><svg viewBox="724 0 724 724" aria-hidden="true"><use href="#asset-21-glossary-metrics"/></svg></div>
+              <div class="term-copy"><h3>MAUs</h3><strong>月活跃用户</strong><p>一个月内与产品互动的独立用户数量。</p><details class="term-hint"><summary>小提示</summary><p>按人去重，不是把每天的 DAU 相加。</p></details></div></article><article class="term-card"><div class="art" role="img" aria-label="好奇的新人"><svg viewBox="0 0 724 724" aria-hidden="true"><use href="#asset-22-glossary-culture"/></svg></div>
+              <div class="term-copy"><h3>Nuo</h3><strong>好奇的新人</strong><p>入职前 90 天，充满好奇、常问问题的新同事。</p></div></article><article class="term-card"><div class="art" role="img" aria-label="目标与关键结果"><svg viewBox="724 0 724 724" aria-hidden="true"><use href="#asset-19-green-plan"/></svg></div>
+              <div class="term-copy"><h3>OKRs</h3><strong>目标与关键结果</strong><p>先定目标，再用关键结果判断有没有做到。</p><details class="term-hint"><summary>小提示</summary><p>手册：团队按季度，公司按年度。</p></details></div></article><article class="term-card"><div class="art" role="img" aria-label="猫头鹰大会"><svg viewBox="724 0 724 724" aria-hidden="true"><use href="#asset-22-glossary-culture"/></svg></div>
+              <div class="term-copy"><h3>Parliament</h3><strong>猫头鹰大会</strong><p>既是一群猫头鹰，也指每周全员会议。</p><details class="term-hint"><summary>小提示</summary><p>手册中通常安排在周一。</p></details></div></article><article class="term-card"><div class="art" role="img" aria-label="匹兹堡"><svg viewBox="1448 0 724 724" aria-hidden="true"><use href="#asset-22-glossary-culture"/></svg></div>
+              <div class="term-copy"><h3>Pittsburgh</h3><strong>匹兹堡</strong><p>三条河流交汇的城市，多邻国总部所在地。</p></div></article><article class="term-card"><div class="art" role="img" aria-label="产品评审"><svg viewBox="1448 0 724 724" aria-hidden="true"><use href="#asset-14-ship-system"/></svg></div>
+              <div class="term-copy"><h3>PR</h3><strong>产品评审</strong><p>这里指批准产品变更的 Product Review。</p><details class="term-hint"><summary>小提示</summary><p>由产品团队主导，其他人可旁听。</p></details></div></article><article class="term-card"><div class="art" role="img" aria-label="高级管理团队"><svg viewBox="724 0 724 724" aria-hidden="true"><use href="#asset-22-glossary-culture"/></svg></div>
+              <div class="term-copy"><h3>SLT</h3><strong>高级管理团队</strong><p>手册中指 VP 及以上的公司领导团队。</p></div></article><article class="term-card"><div class="art" role="img" aria-label="付费订阅用户"><svg viewBox="724 0 724 724" aria-hidden="true"><use href="#asset-10-long-business"/></svg></div>
+              <div class="term-copy"><h3>Subscribers</h3><strong>付费订阅用户</strong><p>订阅多邻国付费服务的用户。</p></div></article></div>
+      <p class="lesson"><span class="lesson-mark" aria-hidden="true">↳</span><span>先理解它在这本手册里的意思，再用到自己的工作。</span></p>
+      <details class="source-detail"><summary>展开：这章的要点与出处</summary><div class="detail-body"><ul><li>词典按 Notion 目录的全部 17 个词条整理，并对照官方手册。</li><li>DAU 与 MAU 统计独立用户；Bookings 的翻译不能简单当作已确认的会计收入。</li><li>PR 在本书的主要语境是 Product Review；其他语境也可能表示公关或代码提交请求。</li><li>Duo 词条的原文部分被遮挡，因此保留能够确认的吉祥物含义，不补造来源故事。</li><li>SLT、订阅、会议安排等说明，遵循 2025 年手册的语境。</li></ul>
+        <a class="original-link" href="https://app.notion.com/p/Glossary-5d1886bc60ff827188a80114aa32d3ff?pvs=25" target="_blank" rel="noopener">Notion 对应章节 ↗</a>
+        <span> · 手册第 62–63 页</span></div></details>
+    </section>
   <section class="closing" aria-labelledby="mission-title"><p class="kicker">ONE MISSION, MANY LITTLE STEPS.</p><h2 id="mission-title">让好的教育，<br><span>人人可及。</span></h2><p>看长远，做得好，快行动，拿结果，也别忘了有趣。</p>
-    <details class="end-note"><summary>翻到最后：Luis 的提醒与几个小词</summary><p>这些原则来自实际工作，会持续演化。遇到矛盾时，回到使命和具体情境做判断。它们也在讲怎样一起建设一家好公司。</p>
-      <dl class="glossary"><div><dt>DAU</dt><dd>日活跃用户</dd></div><div><dt>Dogfooding</dt><dd>自己先用自己的产品</dd></div><div><dt>Juicy</dt><dd>更生动、有趣的体验</dd></div><div><dt>OKR</dt><dd>目标与关键结果</dd></div></dl>
-    </details>
   </section>
-  <footer class="footer"><div>依据 THE DUOLINGO HANDBOOK（2025）整理。<br>中文为内容提炼；漫画场景为辅助理解的改编。非官方漫画版。</div><div class="footer-right"><a href="https://handbook.duolingo.com/" target="_blank" rel="noopener">官方手册 ↗</a><a href="https://app.notion.com/p/THE-DUOLINGO-HANDBOOK-fee886bc60ff83119a4381c4c6a804c8" target="_blank" rel="noopener">Notion 原文 ↗</a><a class="back-top" href="#top">回到开头 ↑</a></div></footer>
+  <footer class="footer"><div>依据 THE DUOLINGO HANDBOOK（2025）与 Notion 整理。<br>全 9 章的主要观点与案例，均作漫画提炼，并非逐字翻译。<br>漫画场景为辅助理解的改编；Will 灰字另行标注。非官方漫画版。</div><div class="footer-right"><a href="https://handbook.duolingo.com/" target="_blank" rel="noopener">官方手册 ↗</a><a href="https://app.notion.com/p/THE-DUOLINGO-HANDBOOK-fee886bc60ff83119a4381c4c6a804c8" target="_blank" rel="noopener">Notion 原文 ↗</a><a class="back-top" href="#top">回到开头 ↑</a></div></footer>
 </main>
 <script>
 const chapters=[...document.querySelectorAll('.chapter')];
